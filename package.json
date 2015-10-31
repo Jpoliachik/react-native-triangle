@@ -1,6 +1,6 @@
 {
   "name": "react-native-triangle",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "draw triangle views in react native",
   "main": "Triangle.js",
   "repository": {
