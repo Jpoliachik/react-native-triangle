@@ -29,10 +29,7 @@ The width and height act as bounds to fit the triangle into.
 - right
 - down
 - left
-
-## Future Support
-- Scalene triangles
-- Top Right direction
-- Top Left direction
-- Bottom Right direction
-- Bottom Left direction
+- up-left
+- up-right
+- down-left
+- down-right
