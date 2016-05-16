@@ -8,7 +8,7 @@ A class to encapsulate the CSS triangle hack. Based off the output of the triang
 
 Then
 
-`require('react-native-triangle');`
+`import Triangle from 'react-native-triangle';`
 
 ## Usage
 Sample JSX will produce the triangle below:
