@@ -1,10 +1,10 @@
 'use strict';
 
- var React = require('react-native');
- var {
-   StyleSheet,
-   View,
- } = React;
+import React from 'react';
+import {
+  StyleSheet,
+  View
+} from 'react-native';
 
  var Triangle = React.createClass({
 
