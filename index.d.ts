@@ -10,25 +10,30 @@ type TrianglePropsDirection = 'up' | 'right' | 'down' | 'left' | 'up-left' | 'up
 interface TriangleProps {
   /**
    * The width of the rendered triangle
+   * Default value is 0
    */
-  width: number
+  width?: number
 
   /**
    * Height of the rendered triangle
+   * Default value is 0
    */
-  height: number
+  height?: number
 
 
   /**
    * Fill color of triangle
    * Accepts color strings such as hex, literals, rgba
+   * 
+   * Default value is 'white'
    */
-  color: string
+  color?: string
 
   /**
    * Orientation for the triangle
+   * Default value is 'up'
    */
-  direction: TrianglePropsDirection
+  direction?: TrianglePropsDirection
 }
 
 export default class Triangle extends Component<TriangleProps, {}> { }
