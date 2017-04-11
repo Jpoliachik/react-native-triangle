@@ -3,6 +3,7 @@
   "version": "0.0.6",
   "description": "draw triangle views in react native",
   "main": "Triangle.js",
+  "types": "index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/Jpoliachik/react-native-triangle"
