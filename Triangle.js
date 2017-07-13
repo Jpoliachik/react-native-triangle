@@ -5,14 +5,16 @@ import {
   StyleSheet,
   View
 } from 'react-native';
+var createReactClass = require('create-react-class');
+var PropTypes = require('prop-types')
 
- var Triangle = React.createClass({
+ var Triangle = createReactClass({
 
    propTypes: {
-     direction: React.PropTypes.oneOf(['up', 'right', 'down', 'left', 'up-right', 'up-left', 'down-right', 'down-left']),
-     width: React.PropTypes.number,
-     height: React.PropTypes.number,
-     color: React.PropTypes.string,
+     direction: PropTypes.oneOf(['up', 'right', 'down', 'left', 'up-right', 'up-left', 'down-right', 'down-left']),
+     width: PropTypes.number,
+     height: PropTypes.number,
+     color: PropTypes.string,
    },
 
    getDefaultProps: function() {
