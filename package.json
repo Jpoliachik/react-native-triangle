@@ -13,5 +13,9 @@
     "react-native"
   ],
   "author": "Justin Poliachik (https://github.com/Jpoliachik)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "create-react-class": "^15.6.0",
+    "prop-types": "^15.5.10"
+  }
 }
