@@ -9,6 +9,8 @@ var createReactClass = require('create-react-class');
 var PropTypes = require('prop-types')
 
  var Triangle = createReactClass({
+   
+   displayName: 'Triangle',
 
    propTypes: {
      direction: PropTypes.oneOf(['up', 'right', 'down', 'left', 'up-right', 'up-left', 'down-right', 'down-left']),
